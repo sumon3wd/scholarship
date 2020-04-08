@@ -34,8 +34,8 @@
 					<div class="scholarship-copyright-wrapper">
 						<?php $scholarship_copyright_text = get_theme_mod( 'scholarship_copyright_text', __( 'Scholarship', 'scholarship' ) ); ?>
 						<span class="scholarship-copyright"><?php echo wp_kses_post( $scholarship_copyright_text ); ?></span>
-						<span class="sep"> | </span>
-						<?php printf( esc_html__( '%1$s by %2$s.', 'scholarship' ), 'Scholarship Theme', '<a href="'. esc_url( 'https://mysterythemes.com/' ).'" rel="designer">Mystery Themes</a>' ); ?>
+						<span class="sep"></span>
+						<?php printf( esc_html__( '%1$s %2$s', '' ), '', '<a href="'. esc_url( '#' ).'" rel="designer"></a>' ); ?>
 					</div>
 
 					<div class="mt-sub-footer-right">
